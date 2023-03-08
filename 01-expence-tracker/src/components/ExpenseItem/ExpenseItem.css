@@ -6,7 +6,7 @@
     padding: 0.5rem;
     margin: 1rem 0;
     border-radius: 12px;
-    background-color: #887f7f;
+    background-color: #2e2e2e;
     margin: 20px 20px 20px 20px ;
   }
   
@@ -21,7 +21,6 @@
   }
   
   .expense-item h2 {
-    color: #868585;
     font-size: 1rem;
     flex: 1;
     margin: 0 1rem;
@@ -32,9 +31,10 @@
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: #021446;
+    background-color: #00103d;
     border: 1px solid white;
-    padding: 0.5rem;
+    padding: .5rem;
+    margin-right:10px ;
     border-radius: 12px;
   }
   
@@ -52,6 +52,6 @@
   
     .expense-item__price {
       font-size: 1.25rem;
-      padding: 0.5rem 1.5rem;
+      padding: 1rem 2rem;
     }
   }

@@ -18,12 +18,18 @@ function App() {
       title:'Food',
       date:new Date(2023,0,5),
       price:5500.00
+    },
+    {
+      id:'e4',
+      title:'Extra amount for fun',
+      date:new Date(2023,11,25),
+      price:500.00
     }
   ];
 
 
   return (
-    <div>
+    <div className='App'>
       {data.map((e)=>(<ExpenseItem title={e.title} price={e.price} date ={e.date} />))}
 
     </div>
