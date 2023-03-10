@@ -29,10 +29,9 @@ function App() {
 
 
   return (
-    <div>
+    <div className='App'>
       <h2>Let get started!</h2>
-      {data.map((e)=>(<ExpenseItem title={e.title} price={e.price} date ={e.date} />))}
-
+       {data.map((e)=>(<ExpenseItem title={e.title} price={e.price} date ={e.date} />))}
     </div>
   );
 }
