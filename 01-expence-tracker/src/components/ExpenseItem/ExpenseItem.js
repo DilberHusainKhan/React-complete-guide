@@ -1,15 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ExpenseDate from '../ExpenseDate/ExpenseDate'
 import './ExpenseItem.css'
 import Card from '../Card/Card'; 
 
 
 const ExpenseItem = (data) => {
-
-  let title = data.title;
+  const [title,setTitle] = useState(data.title);
   const clickHandler=()=>{
+    setTitle("Update Title!")
     console.log("Update title");
-    title="Update";
   }
   return (
     <Card className='expense-item'>
