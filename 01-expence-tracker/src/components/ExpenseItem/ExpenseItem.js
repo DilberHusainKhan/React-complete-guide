@@ -3,7 +3,7 @@ import ExpenseDate from '../ExpenseDate/ExpenseDate'
 import './ExpenseItem.css'
 import Card from '../Card/Card'; 
 
-
+//Expense Item
 const ExpenseItem = (data) => {
   const [title,setTitle] = useState(data.title);
   const clickHandler=()=>{
