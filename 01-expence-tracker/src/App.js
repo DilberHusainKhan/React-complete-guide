@@ -1,5 +1,6 @@
 import './App.css';
 import ExpenseItem from './components/ExpenseItem/ExpenseItem';
+import NewExpense from './components/NewExpenses/NewExpense';
 
 function App() {
   const data =[
@@ -32,6 +33,7 @@ function App() {
     <div>
       <h2>Let get started!</h2>
       <div className='App'>
+        <NewExpense/>
        {data.map((e)=>(<ExpenseItem title={e.title} price={e.price} date ={e.date} />))}
       </div>
     </div>
