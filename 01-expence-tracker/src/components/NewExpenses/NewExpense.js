@@ -1,4 +1,3 @@
-//new update
 import React from 'react'
 import './NewExpense.css'
 
