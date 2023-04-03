@@ -1,6 +1,6 @@
 import React from 'react'
 import './NewExpense.css'
-
+//Update 
 const NewExpense = () => {
   return (
     <div className='new-expense'>
